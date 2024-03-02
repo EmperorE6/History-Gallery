@@ -192,7 +192,7 @@ function App() {
         <div key={index} className='photo-container' onMouseEnter={() => handleMouseIn(index)} onMouseLeave={handleMouseOut}>
         <img src={element.img}  alt="Photo" />
         <div className={isHovered === index ? "hoverDiv" : "hoverDrug"}>
-          <h3>{element.title}</h3>
+          <h2>{element.title}</h2>
           <p>{element.description}</p>
           <div className='contacts'>
             <img src={insta} onClick={()=> handleLocation("https://www.instagram.com/andrejgorgiev11/")}></img>

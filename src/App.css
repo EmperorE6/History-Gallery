@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body {
-  font-family: 'Madimi One', sans-serif;
-  background-image: url("pic2.jpg");
+  font-family: "PT Serif", serif;
+  background-image: url("pic5.jpg");
   background-size: cover; 
     background-repeat: no-repeat;
 }
@@ -11,7 +11,6 @@ align-items: center;
 width:100%;
 margin:0 auto;
 margin-top:2%;
-
 }
 .hoverDiv{
   position: absolute;
@@ -70,7 +69,9 @@ h1{
   text-align: center;
   font-size:45px;
   font-weight: 700;
- color: rgb(20, 21, 22) 
+ color: rgb(15, 13, 2);
+ font-style: italic;
+
 }
 .active {
 background-color: rgb(199, 188, 170) !important;
@@ -82,8 +83,8 @@ font-style: italic;
 font-size:17px;
 font-weight: 500;
 }
-h3{
-  font-size:25px;
+h2{
+  font-size:22px;
 }
 .hoverDrug{
   position: absolute;
